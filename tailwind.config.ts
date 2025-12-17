@@ -18,7 +18,7 @@ export default {
       },
       colors: {
         brand: {
-          blue: "hsl(217 91% 60%)",
+          blue: "hsl(217 91% 55%)",
           cyan: "hsl(189 94% 43%)",
           purple: "hsl(270 70% 60%)",
         },
@@ -54,6 +54,10 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
